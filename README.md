@@ -5,6 +5,13 @@
 
 
 # Tool-X
+使用中如果出现网络异常，可能需要设置一下git代理
+
+```shell
+git config --global http.proxy 'socks5://127.0.0.1:socks5端口号'
+ 
+git config --global https.proxy 'socks5://127.0.0.1:socks5端口号'
+```
 
 ------------------------------------------------------------------------
 
